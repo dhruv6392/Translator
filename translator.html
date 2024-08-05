@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator Bhai - Beta</title>
+    <link rel="stylesheet" href="./css/translator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="./Resources/image_translator_logo_temo.jpg" class="logo"></a>
+        <nav>
+            <a href="./homepage.html" > Home</a>
+            <a href="./about.html" >About Us</a>
+            <a href="#" class="active" >Products</a>
+            <a href="./contact.html" >Contact Us</a>
+            <a href="./login.html" >Login</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <p> <b> TRANSLATOR BHAI</b></p>
+        <button>Translate</button>
+
+        <ul class="button">
+            <li class="row form">
+                <select></select>
+            </li>
+            <li class="change"><i class="fas fa-exchange-alt"></i></li>
+            <li class="row to">
+                <select></select>
+            </li>
+        </ul>
+
+        <div class="groupy">
+            <div class="text-input">
+                <textarea spellcheck="false" class="from-text" placeholder="type your text query..."></textarea>
+                <textarea spellcheck="false"  class="to-text" placeholder="translation"></textarea>
+            </div>
+            <button id="speakBtn">Speak Translation</button>
+            <button id="startListeningBtn">Start Listening</button>
+        </div>
+
+        <p>Translator Bhai Beta - Early Access</p>
+    </div>
+
+    <script src="./js/countries.js"></script>
+    <script src="./js/translator.js"></script>
+</body>
+</html>
